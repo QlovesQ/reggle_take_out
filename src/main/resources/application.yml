@@ -5,6 +5,17 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
+  redis:
+    host: 112.74.72.92
+    port: 6379
+    timeout: 200000
+    password: lovexzq13141314
+    jedis:
+      pool:
+        min-idle: 1
+        max-idle: 10
+    database: 0
+
   application:
     # 应用得名称
     name: reggie_take_out
